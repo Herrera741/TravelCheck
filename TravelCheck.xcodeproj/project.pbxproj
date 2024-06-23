@@ -14,6 +14,9 @@
 		B43F0BAD2C280B0A00FAA900 /* TravelCheckTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43F0BAC2C280B0A00FAA900 /* TravelCheckTests.swift */; };
 		B43F0BB72C280B0A00FAA900 /* TravelCheckUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43F0BB62C280B0A00FAA900 /* TravelCheckUITests.swift */; };
 		B43F0BB92C280B0A00FAA900 /* TravelCheckUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43F0BB82C280B0A00FAA900 /* TravelCheckUITestsLaunchTests.swift */; };
+		B43F0BC72C280C7C00FAA900 /* TripDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43F0BC62C280C7C00FAA900 /* TripDetailView.swift */; };
+		B43F0BC92C2810C000FAA900 /* CalendarDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43F0BC82C2810C000FAA900 /* CalendarDayView.swift */; };
+		B43F0BCC2C28277900FAA900 /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43F0BCB2C28277900FAA900 /* Section.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		B43F0BB22C280B0A00FAA900 /* TravelCheckUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TravelCheckUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B43F0BB62C280B0A00FAA900 /* TravelCheckUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelCheckUITests.swift; sourceTree = "<group>"; };
 		B43F0BB82C280B0A00FAA900 /* TravelCheckUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelCheckUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B43F0BC62C280C7C00FAA900 /* TripDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDetailView.swift; sourceTree = "<group>"; };
+		B43F0BC82C2810C000FAA900 /* CalendarDayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarDayView.swift; sourceTree = "<group>"; };
+		B43F0BCB2C28277900FAA900 /* Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +100,8 @@
 		B43F0B9A2C280B0600FAA900 /* TravelCheck */ = {
 			isa = PBXGroup;
 			children = (
+				B43F0BCA2C2824C300FAA900 /* Model */,
+				B43F0BC52C280C4900FAA900 /* View */,
 				B43F0B9B2C280B0600FAA900 /* TravelCheckApp.swift */,
 				B43F0B9D2C280B0600FAA900 /* ContentView.swift */,
 				B43F0B9F2C280B0900FAA900 /* Assets.xcassets */,
@@ -125,6 +133,23 @@
 				B43F0BB82C280B0A00FAA900 /* TravelCheckUITestsLaunchTests.swift */,
 			);
 			path = TravelCheckUITests;
+			sourceTree = "<group>";
+		};
+		B43F0BC52C280C4900FAA900 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B43F0BC62C280C7C00FAA900 /* TripDetailView.swift */,
+				B43F0BC82C2810C000FAA900 /* CalendarDayView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B43F0BCA2C2824C300FAA900 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B43F0BCB2C28277900FAA900 /* Section.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +282,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B43F0BCC2C28277900FAA900 /* Section.swift in Sources */,
 				B43F0B9E2C280B0600FAA900 /* ContentView.swift in Sources */,
 				B43F0B9C2C280B0600FAA900 /* TravelCheckApp.swift in Sources */,
+				B43F0BC72C280C7C00FAA900 /* TripDetailView.swift in Sources */,
+				B43F0BC92C2810C000FAA900 /* CalendarDayView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
